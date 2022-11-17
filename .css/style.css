@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-image: url("../.img/Main Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+:root{
+    --NavHeight:10vh;
+}
+
+.Nav{
+    display: flex;
+    width: 100%;
+    height: var(--NavHeight);
+    background-color: rgba(255, 246, 235,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav > button{
+    width:10vw;
+    height: 5vh;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+    font-family: Alegreya Sans SC;
+    font-size: larger;
+    font-weight: bolder;
+
+    background-color: brown;
+    color: white;
+    border: 0;
+    box-shadow: 5px 5px 15px rgb(105, 105, 105);
+    transition: 0.3s;
+
+}
+
+.Nav > button:hover{
+    transition: 0.3s;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(10vw + 1%);
+    height: 6vh;
+    font-size: x-large;
+}
+
+.Icon{
+    position: absolute;
+    justify-self: left;
+    height: var(--NavHeight);
+}
+
+.Main{
+    padding-top: 1%;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    background-color: rgba(255, 81, 0,0.8);
+    /* min-height: 800px; */
+    text-align: center;
+}
+
+.Main > h1{
+    margin: 0;
+    font-family: Alegreya Sans SC;
+    font-weight: 900;
+    text-shadow: 2px 2px rgb(54, 54, 54);
+
+    color: white;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.Main > .Block{
+    padding:1%;
+    padding-top: 0.5%;
+    width: 70%;
+    background-color: beige;
+    font-size: xx-large;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    font-family: Alegreya Sans SC;
+    font-weight: lighter;
+}
+
+.Main > .Pa1{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    box-shadow: 10px 10px 25px rgb(102, 102, 102);
+}
+
+.Main > .Pa2{
+    margin-left: 28%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    box-shadow: 0px 5px 25px 10px rgb(102, 102, 102);
+}
+
+.Main2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 246, 235, 0.623);
+}
+
+.Main2 > h1{
+    color: black;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+
+}
+
+.Main2 > .TextB1{
+    align-self: center;
+    width: 70%;
+    background-color: bisque;
+
+    box-shadow: 0px 5px 25px 10px rgb(102, 102, 102);
+    
+
+    padding:1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+    width: 70%;
+    background-color: #e9d2b2;
+    font-size: xx-large;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    font-family: Alegreya Sans SC;
+    font-weight: lighter;
+}
