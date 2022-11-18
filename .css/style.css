@@ -38,6 +38,8 @@ body{
     box-shadow: 5px 5px 15px rgb(105, 105, 105);
     transition: 0.3s;
 
+    min-width: 100px;
+
 }
 
 .Nav > button:hover{
